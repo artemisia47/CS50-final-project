@@ -145,7 +145,7 @@ end
 * Jumping: Press the Spacebar or W key to make the player jump.
 * Collect Coins: Move over the coins scattered in each level to collect them.
 * Avoid Spikes: Spikes are deadly; avoid them by jumping or running around them.
-* Defeat Enemies: The player can be harmed by enemies, so avoid them or find ways to defeat them (e.g., jumping on them).
+* Avoid Enemies: The player can be harmed by enemies, so avoid them.
 * Level Progression: Move to the right side of the screen to transition to the next level.
 
 ## Running the Game
