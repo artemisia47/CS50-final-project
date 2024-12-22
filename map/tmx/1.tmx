@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="128" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="321">
+ <editorsettings>
+  <export target="../2.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16" tilecount="72" columns="12">
+  <image source="../../assets/tiles and background_foreground (new)/tileset.png" width="192" height="96"/>
+ </tileset>
+ <layer id="2" name="ground" width="128" height="23">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup color="#ffff00" id="4" name="entity">
+  <object id="46" name="coin" type="coin" x="77" y="181" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="51" name="coin" type="coin" x="77" y="181" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="53" name="coin" type="coin" x="77" y="181" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="59" name="coin" type="coin" x="137.5" y="141" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="60" name="coin" type="coin" x="137.5" y="141" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="61" name="coin" type="coin" x="137.5" y="141" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="62" name="coin" type="coin" x="197" y="106.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="63" name="coin" type="coin" x="197" y="106.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="64" name="coin" type="coin" x="197" y="106.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="65" name="coin" type="coin" x="315.5" y="109" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="66" name="coin" type="coin" x="315.5" y="109" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="67" name="coin" type="coin" x="315.5" y="109" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="71" name="coin" type="coin" x="353" y="109" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="72" name="coin" type="coin" x="353" y="109" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="73" name="coin" type="coin" x="353" y="109" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="74" name="coin" type="coin" x="391.5" y="108" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="75" name="coin" type="coin" x="391.5" y="108" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="76" name="coin" type="coin" x="391.5" y="108" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="77" name="coin" type="coin" x="432.5" y="108.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="78" name="coin" type="coin" x="432.5" y="108.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="79" name="coin" type="coin" x="432.5" y="108.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="80" name="coin" type="coin" x="429.5" y="259.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="81" name="coin" type="coin" x="429.5" y="259.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="82" name="coin" type="coin" x="429.5" y="259.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="83" name="coin" type="coin" x="476.5" y="257" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="84" name="coin" type="coin" x="476.5" y="257" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="85" name="coin" type="coin" x="476.5" y="257" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="89" name="coin" type="coin" x="517" y="259" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="90" name="coin" type="coin" x="517" y="259" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="91" name="coin" type="coin" x="517" y="259" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="96" name="coin" type="coin" x="555.5" y="171" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="97" name="coin" type="coin" x="555.5" y="171" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="98" name="coin" type="coin" x="555.5" y="171" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="99" x="560" y="176" width="10.5" height="5">
+   <ellipse/>
+  </object>
+  <object id="100" name="coin" type="coin" x="584" y="170" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="101" name="coin" type="coin" x="584" y="170" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="102" name="coin" type="coin" x="584" y="170" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="103" name="coin" type="coin" x="620.5" y="171" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="104" name="coin" type="coin" x="620.5" y="171" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="105" name="coin" type="coin" x="620.5" y="171" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="106" name="coin" type="coin" x="157.5" y="255" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="107" name="coin" type="coin" x="157.5" y="255" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="108" name="coin" type="coin" x="157.5" y="255" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="115" name="coin" type="coin" x="228" y="253" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="116" name="coin" type="coin" x="228" y="253" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="117" name="coin" type="coin" x="228" y="253" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="118" name="coin" type="coin" x="279" y="254" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="119" name="coin" type="coin" x="279" y="254" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="120" name="coin" type="coin" x="279" y="254" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="121" name="coin" type="coin" x="682" y="92.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="122" name="coin" type="coin" x="682" y="92.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="123" name="coin" type="coin" x="682" y="92.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="124" name="coin" type="coin" x="801.5" y="42.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="125" name="coin" type="coin" x="801.5" y="42.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="126" name="coin" type="coin" x="801.5" y="42.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="127" name="coin" type="coin" x="960" y="48" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="128" name="coin" type="coin" x="960" y="48" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="129" name="coin" type="coin" x="960" y="48" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="130" name="coin" type="coin" x="990.5" y="59" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="131" name="coin" type="coin" x="990.5" y="59" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="132" name="coin" type="coin" x="990.5" y="59" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="133" name="coin" type="coin" x="1011.5" y="32.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="134" name="coin" type="coin" x="1011.5" y="32.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="135" name="coin" type="coin" x="1011.5" y="32.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="136" name="coin" type="coin" x="1109.5" y="65.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="137" name="coin" type="coin" x="1109.5" y="65.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="138" name="coin" type="coin" x="1109.5" y="65.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="139" name="coin" type="coin" x="1149.5" y="65" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="140" name="coin" type="coin" x="1149.5" y="65" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="141" name="coin" type="coin" x="1149.5" y="65" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="142" name="coin" type="coin" x="985" y="184.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="143" name="coin" type="coin" x="985" y="184.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="144" name="coin" type="coin" x="985" y="184.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="145" name="coin" type="coin" x="1100" y="180.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="146" name="coin" type="coin" x="1100" y="180.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="147" name="coin" type="coin" x="1100" y="180.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="148" name="coin" type="coin" x="1258" y="77.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="149" name="coin" type="coin" x="1258" y="77.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="150" name="coin" type="coin" x="1258" y="77.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="151" name="coin" type="coin" x="1304.5" y="82" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="152" name="coin" type="coin" x="1304.5" y="82" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="153" name="coin" type="coin" x="1304.5" y="82" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="154" name="coin" type="coin" x="1232" y="192" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="155" name="coin" type="coin" x="1232" y="192" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="156" name="coin" type="coin" x="1232" y="192" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="157" name="coin" type="coin" x="1282.5" y="197" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="158" name="coin" type="coin" x="1282.5" y="197" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="159" name="coin" type="coin" x="1282.5" y="197" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="160" name="coin" type="coin" x="1407.5" y="194.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="161" name="coin" type="coin" x="1407.5" y="194.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="162" name="coin" type="coin" x="1407.5" y="194.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="163" name="coin" type="coin" x="1427.5" y="194" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="164" name="coin" type="coin" x="1427.5" y="194" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="165" name="coin" type="coin" x="1427.5" y="194" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="172" name="coin" type="coin" x="1395" y="76" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="173" name="coin" type="coin" x="1395" y="76" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="174" name="coin" type="coin" x="1395" y="76" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="175" name="coin" type="coin" x="1423" y="77" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="176" name="coin" type="coin" x="1423" y="77" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="177" name="coin" type="coin" x="1423" y="77" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="178" name="coin" type="coin" x="1452.5" y="77" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="179" name="coin" type="coin" x="1452.5" y="77" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="180" name="coin" type="coin" x="1452.5" y="77" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="184" name="coin" type="coin" x="1722" y="98" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="185" name="coin" type="coin" x="1722" y="98" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="186" name="coin" type="coin" x="1722" y="98" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="187" name="coin" type="coin" x="1745.5" y="97.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="188" name="coin" type="coin" x="1745.5" y="97.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="189" name="coin" type="coin" x="1745.5" y="97.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="190" name="coin" type="coin" x="1844.5" y="230.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="191" name="coin" type="coin" x="1844.5" y="230.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="192" name="coin" type="coin" x="1844.5" y="230.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="193" name="coin" type="coin" x="1863.5" y="230" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="194" name="coin" type="coin" x="1863.5" y="230" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="195" name="coin" type="coin" x="1863.5" y="230" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="196" name="coin" type="coin" x="1880.5" y="231.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="197" name="coin" type="coin" x="1880.5" y="231.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="198" name="coin" type="coin" x="1880.5" y="231.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="199" name="coin" type="coin" x="1881.5" y="184" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="200" name="coin" type="coin" x="1881.5" y="184" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="201" name="coin" type="coin" x="1881.5" y="184" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="202" name="coin" type="coin" x="1898" y="183" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="203" name="coin" type="coin" x="1898" y="183" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="204" name="coin" type="coin" x="1898" y="183" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="205" name="coin" type="coin" x="1917.5" y="182.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="206" name="coin" type="coin" x="1917.5" y="182.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="207" name="coin" type="coin" x="1917.5" y="182.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="208" name="coin" type="coin" x="1932" y="179.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="209" name="coin" type="coin" x="1932" y="179.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="210" name="coin" type="coin" x="1932" y="179.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="211" name="coin" type="coin" x="1941" y="136" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="212" name="coin" type="coin" x="1941" y="136" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="213" name="coin" type="coin" x="1941" y="136" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="214" name="coin" type="coin" x="1960" y="136.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="215" name="coin" type="coin" x="1960" y="136.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="216" name="coin" type="coin" x="1960" y="136.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="217" name="coin" type="coin" x="1979.5" y="132.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="218" name="coin" type="coin" x="1979.5" y="132.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="219" name="coin" type="coin" x="1979.5" y="132.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="220" name="coin" type="coin" x="1995.5" y="84.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="221" name="coin" type="coin" x="1995.5" y="84.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="222" name="coin" type="coin" x="1995.5" y="84.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="223" name="coin" type="coin" x="2012" y="81" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="224" name="coin" type="coin" x="2012" y="81" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="225" name="coin" type="coin" x="2012" y="81" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="226" name="coin" type="coin" x="2025" y="83" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="227" name="coin" type="coin" x="2025" y="83" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="228" name="coin" type="coin" x="2025" y="83" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="229" name="coin" type="coin" x="1996" y="110" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="230" name="coin" type="coin" x="1996" y="110" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="231" name="coin" type="coin" x="1996" y="110" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="232" name="coin" type="coin" x="2013.5" y="106.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="233" name="coin" type="coin" x="2013.5" y="106.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="234" name="coin" type="coin" x="2013.5" y="106.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="235" name="coin" type="coin" x="2028" y="108" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="236" name="coin" type="coin" x="2028" y="108" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="237" name="coin" type="coin" x="2028" y="108" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="250" name="coin" type="coin" x="1701" y="125.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="251" name="coin" type="coin" x="1701" y="125.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="252" name="coin" type="coin" x="1701" y="125.5" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="253" name="coin" type="coin" x="1702" y="162" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="254" name="coin" type="coin" x="1702" y="162" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="255" name="coin" type="coin" x="1702" y="162" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="256" name="coin" type="coin" x="1699.5" y="201" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="257" name="coin" type="coin" x="1699.5" y="201" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="258" name="coin" type="coin" x="1699.5" y="201" width="21" height="21">
+   <ellipse/>
+  </object>
+  <object id="260" name="stone" type="stone" x="1536" y="232" width="40" height="40"/>
+  <object id="262" name="spike" type="spike" x="184" y="264" width="40" height="40"/>
+  <object id="265" name="spike" type="spike" x="319" y="264" width="40" height="40"/>
+  <object id="266" name="spike" type="spike" x="648" y="264" width="40" height="40"/>
+  <object id="295" name="spike" type="spike" x="689" y="264.5" width="40" height="40"/>
+  <object id="297" name="spike" type="spike" x="820" y="264" width="40" height="40"/>
+  <object id="298" name="spike" type="spike" x="860" y="264" width="40" height="40"/>
+  <object id="300" name="spike" type="spike" x="940" y="264" width="40" height="40"/>
+  <object id="301" name="spike" type="spike" x="980" y="264" width="40" height="40"/>
+  <object id="302" name="spike" type="spike" x="1092" y="264" width="40" height="40"/>
+  <object id="303" name="spike" type="spike" x="1180" y="264" width="40" height="40"/>
+  <object id="304" name="spike" type="spike" x="1336" y="264" width="40" height="40"/>
+  <object id="311" name="enemy" type="enemy" x="217" y="151.5">
+   <point/>
+  </object>
+  <object id="315" name="enemy" type="enemy" x="413" y="157.5">
+   <point/>
+  </object>
+  <object id="316" name="enemy" type="enemy" x="1266.5" y="281">
+   <point/>
+  </object>
+  <object id="317" name="enemy" type="enemy" x="1437.5" y="186.5">
+   <point/>
+  </object>
+  <object id="318" name="enemy" type="enemy" x="1424.5" y="101">
+   <point/>
+  </object>
+  <object id="319" name="enemy" type="enemy" x="1820.5" y="280">
+   <point/>
+  </object>
+  <object id="320" name="enemy" type="enemy" x="2020" y="103">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="1" name="grass" width="128" height="23">
+  <data encoding="csv">
+51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,9,0,0,0,0,0,0,0,2,2,2,2,0,0,0,0,0,0,1,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,32,33,0,0,0,0,0,0,1,14,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,1,2,2,3,0,0,0,0,1,2,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,14,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,13,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37,38,39,
+51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,13,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61,65,63,
+51,0,0,0,0,0,0,0,0,0,0,43,43,43,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,9,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,13,2,3,0,0,0,0,0,0,25,26,26,3,0,0,0,0,13,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,14,15,0,0,0,0,0,0,0,0,0,0,0,37,38,38,50,0,0,
+51,0,0,0,0,0,0,0,0,0,0,43,56,57,0,0,0,0,0,0,0,1610612764,14,14,14,14,14,1610612764,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,32,31,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,15,0,0,0,0,13,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,14,15,0,0,0,0,0,0,0,0,0,0,0,50,65,50,50,0,0,
+51,0,0,0,0,0,0,0,0,43,44,56,0,0,0,0,0,0,0,0,0,0,1610612764,14,14,14,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,14,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,15,0,0,0,0,13,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,14,15,0,0,0,0,0,0,0,0,0,0,0,61,65,50,63,0,0,
+51,0,0,0,0,0,0,0,0,55,56,57,0,0,0,0,0,0,0,0,0,0,0,1610612764,14,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,14,0,0,0,0,0,0,0,25,26,26,26,27,0,0,0,0,0,0,0,0,0,15,0,0,0,0,13,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,14,15,0,0,0,0,0,0,0,0,37,38,38,39,0,0,0,0,0,
+51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612764,0,0,0,0,0,0,0,0,0,0,7,8,8,8,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,26,27,0,0,0,0,25,26,26,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,14,15,0,0,0,0,0,0,0,0,50,50,50,65,0,0,0,0,0,
+51,0,0,0,43,44,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,32,32,32,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,14,15,0,0,0,0,0,0,0,0,61,65,50,63,0,0,0,0,0,
+51,0,0,0,55,56,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,13,14,15,0,0,0,0,0,37,38,38,39,0,0,0,0,0,0,0,0,
+51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,14,14,28,2,2,3,0,0,0,0,0,0,0,13,14,15,0,0,0,0,0,50,65,50,50,0,0,0,0,0,0,0,0,
+51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,14,14,14,14,14,14,2,2,2,2,2,2,2,30,14,15,0,0,0,0,0,61,50,65,63,0,0,0,0,0,0,0,0,
+37,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,0,0,0,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,0,0,0,38,38,38,38,38,38,38,38,38,38,38,38,38,0,0,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,0,0,0,13,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,28,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,0,0,0,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,0,0,0,50,50,50,50,50,50,50,50,50,50,50,50,50,0,0,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,0,0,0,13,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,26,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+49,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,0,0,0,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,0,0,0,50,50,50,50,50,50,50,50,50,50,50,50,50,0,0,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,0,0,0,13,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,
+61,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,0,0,0,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,0,0,0,62,62,62,62,62,62,62,62,62,62,62,62,62,0,0,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,0,0,0,13,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26
+</data>
+ </layer>
+ <objectgroup id="3" name="solid">
+  <object id="10" x="0" y="304" width="368" height="64">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="11" x="416" y="304" width="333.5" height="64.5">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="12" x="816" y="304" width="208" height="64">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="13" x="1056" y="304" width="400" height="64">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="14" x="1504.2" y="305" width="541.471" height="65.3333">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="15" x="960" y="96" width="64" height="17.3333">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="16" x="1120" y="98" width="64" height="14">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="17" x="1262.67" y="114.333" width="64" height="14">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="18" x="1391.33" y="111.333" width="80" height="16.6667">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="19" x="1504.67" y="272" width="111.333" height="32">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="20" x="1616" y="288" width="112" height="16">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="22" x="1728" y="144" width="48" height="159.667">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="23" x="1856" y="256" width="64" height="48">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="24" x="1904" y="208" width="64" height="48">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="25" x="1952" y="160" width="64" height="48">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="26" x="2000" y="128" width="48" height="32">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="27" x="64" y="240" width="48" height="32">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="28" x="143.667" y="192" width="48.3333" height="32">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="29" x="176" y="160" width="48" height="32">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="30" x="320" y="160" width="144" height="16">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="31" x="560" y="224" width="80" height="32">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="32" x="688" y="159.333" width="48.3333" height="32">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="33" x="800" y="96" width="48" height="32">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="34" x="945" y="112" width="12.6666" height="25.3333">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="35" x="928" y="129.333" width="16.3333" height="32">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="36" x="1088" y="208" width="66.3333" height="16">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="38" x="961" y="224" width="63" height="13.3333">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="40" x="1248" y="224" width="80" height="16">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="41" x="1392" y="224" width="80" height="16">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="42" x="1504" y="256" width="32" height="16">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="312" x="0" y="0" width="16" height="304">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
