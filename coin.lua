@@ -12,7 +12,8 @@ function coin.new(x,y)
     instance.x = x
     instance.y = y
     
-    instance.scaleX = 1 
+    instance.scale = 2
+    instance.scaleX = instance.scale
     instance.randomTimeOffset = math.random(0, 100)
 
     instance.toBeRemoved = false 
@@ -29,7 +30,7 @@ end
 
 function coin:draw()
  -- Draw the coin's image at its position, centered on its origin
-    love.graphics.draw(self.img,self.x,self.y, 0, self.scaleX, 1, self.width / 2, self.height / 2)
+    love.graphics.draw(self.img,self.x,self.y, 0, self.scaleX, self.scale, self.width / 2, self.height / 2)
 end 
 
 function coin:update(dt)
@@ -38,7 +39,7 @@ function coin:update(dt)
 end 
 
 function coin:spin(dt)
-    self.scaleX = math.sin(love.timer.getTime() * 5 + self.randomTimeOffset)
+    self.scaleX = math.sin(love.timer.getTime() * 5 + self.randomTimeOffset) + self.scale - 1 
 
 end 
 
